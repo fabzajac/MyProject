@@ -65,6 +65,14 @@ public class Artist {
         this.songs = songs;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Artist{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", nick='" + nick + '\'' +
+                ", songs=" + songs +
+                '}';
+    }
 }
